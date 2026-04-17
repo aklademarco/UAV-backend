@@ -1,0 +1,27 @@
+{
+  "name": "air-quality-api",
+  "version": "1.0.0",
+  "description": "Backend API for UAV air quality monitoring system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uav",
+    "air-quality",
+    "monitoring",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
